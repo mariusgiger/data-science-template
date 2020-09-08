@@ -6,6 +6,10 @@ exit_err() {
     exit 1
 }
 
+[[ "$(command -v git)" ]] || { exit_err "git is not installed."; }
+[[ "$(command -v pip3)" ]] || { exit_err "pip3 is not installed."; }
+[[ "$(command -v python3)" ]] || { exit_err "python3 is not installed."; }
+
 echo "Enter project name:"
 read project_name </dev/tty
 
