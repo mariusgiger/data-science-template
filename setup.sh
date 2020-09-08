@@ -7,7 +7,7 @@ exit_err() {
 }
 
 echo "Enter project name:"
-read project_name
+read project_name </dev/tty
 
 if [ -z "$project_name" ]; then
     exit_err "please provide a project name."

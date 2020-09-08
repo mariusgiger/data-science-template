@@ -2,6 +2,12 @@
 
 Repository holding template struct for data science.
 
+## Usage
+
+```
+curl -s -L https://raw.githubusercontent.com/mariusgiger/data-science-template/master/setup.sh | bash
+```
+
 ## Dev Setup
 
 Setup uses [Virtualenv](https://virtualenv.pypa.io/en/stable/).
