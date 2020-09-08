@@ -251,5 +251,3 @@ fabric.properties
 .idea/**/markdown-navigator/
 
 # End of https://www.gitignore.io/api/pycharm
-
-lectures/lecture_11/opinion-lexicon-English/glove.6B.50d.txt
